@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayırlı Cumalar Şakşuklar 🐼✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Müzik Açılış Ekranı -->
+    <div id="music-overlay">
+        <div class="overlay-content">
+            <h2>Hazır mısın? Müziği Başlat</h2>
+            <button id="play-music">▶️ Müziği Başlat</button>
+        </div>
+    </div>
+
+    <!-- Ana İçerik -->
+    <div id="main-content" class="hidden">
+        <!-- Başlık Bölümü -->
+        <header>
+            <h1>🐼 Hayırlı Cumalar Şakşuklar 🎶</h1>
+        </header>
+
+        <!-- Panda Dans Alanı -->
+        <main>
+            <section class="panda-party">
+                <div class="panda-container">
+                    <!-- 3 GIF Yan Yana -->
+                    <div class="gif-container">
+                        <div class="gif-left">
+                            <img src="sol.gif" alt="Sol GIF" class="dancing-gif">
+                        </div>
+                        <img src="bubu.gif" alt="Dans Eden Panda" class="dancing-panda">
+                        <div class="gif-right">
+                            <img src="sağ.gif" alt="Sağ GIF" class="dancing-gif">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Müzik Çalar -->
+            <section class="music-player">
+                <audio id="background-music" loop>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Tarayıcınız ses çaları desteklemiyor.
+                </audio>
+            </section>
+        </main>
+
+        <!-- Alt Bilgi -->
+        <footer>
+            <p>© 2024 Hayırlı Cumalar Şakşuklar 🐼</p>
+        </footer>
+    </div>
+</body>
+</html>
